@@ -1,4 +1,4 @@
-# r2docker
+The scanning service will be removed for private repositories on March 31st, 2018. In the meantime, security scans are limited to one scan per day on the “latest” tag in private repos.Learn more# r2docker
 # ========
 #
 # Requires 1GB of free disk space
@@ -28,8 +28,8 @@
 # $ r2 -d /bin/true
 #
 
-# Using debian 8 as base image.
-FROM debian:8
+# Using debian 9 as base image.
+FROM debian:9
 
 # Label base
 LABEL r2docker latest
